@@ -1,0 +1,156 @@
+﻿/* content styling */
+.contentContainer{
+    width:56%;
+    padding:0 100px 100px 100px;
+}
+
+    .contentContainer h1{
+        color:#0097d5;
+        font-size:1.6em;
+        margin-bottom:5px;
+    }
+
+    .contentContainer label{
+        display:block;
+        color:#bababa;
+        font-size:14px;
+        margin-bottom:40px;
+    }
+
+    .contentContainer p{
+        line-height:30px;
+    }
+
+
+/* sidebar content styling */
+.sidebar .options-list-container{
+    width:70%;
+    margin:0 auto;
+    margin-bottom:100px;
+}
+
+.options-list-container ul{
+    list-style:none;
+    font-size:24px;
+}
+
+.options-list-container ul li a{
+    color:#0097d5;
+    text-decoration:none;
+}
+
+.options-list-container ul li img{
+    top:3px;
+    position:relative;
+    margin-right:10px;
+}
+
+.options-list-container ul li hr, .dropdown-container ul li hr{
+    border-color:#bebebe;
+}
+
+.sidebar .dropdown-container{
+    width:70%;
+    margin:0 auto;
+    font-size:20px;
+}
+
+.sidebar .dropdown-container ul{
+    list-style:none;
+    color:#0097d5;
+}
+
+.building-details-list li:hover{
+    cursor:pointer;
+}
+
+.building-details-list .panel{
+    display:none;
+    background-color:#e5e5e5;
+    width:60%;
+    margin-left:50px;
+    font-size:13px;
+    margin-top:20px;
+    color:black;
+    box-shadow:none;
+}
+
+.panel:hover{
+    cursor:initial;
+}
+
+.panel a:hover{
+    cursor:pointer;
+}
+
+.panel b{
+    margin-bottom:5px;
+    display:inline-block;
+}
+
+.panel p{
+    font-weight:normal;
+}
+
+.panel a{
+    font-weight:normal;
+    margin-bottom:5px;
+    display:inline-block;
+    text-decoration:none;
+    color:#0097d5;
+}
+
+@media (max-width:767px) {
+    
+
+    .contentContainer{
+        width:80%;
+        padding:0;
+        margin:0 auto;
+    }
+
+    .body-content .contentContainer h1{
+        font-size:17px;
+    }
+
+    .contentContainer p{
+        font-size:12px;
+    }
+
+    .contentContainer label{
+        font-size:11px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1200px){
+    .contentContainer h1{
+        font-size:1.4em;
+    }
+
+    .contentContainer p{
+        font-size:14px;
+    }
+
+    .contentContainer label{
+        font-size:13px;
+    }
+
+    .building-details-list .panel{
+        width:80%;
+        margin-left:25px;
+    }
+}
+
+@media (max-width:1300px){
+    .meeting-minutes-content p{
+        font-size:14px;
+    }
+
+    .options-list-container ul{
+        font-size:17px;
+    }
+
+    .sidebar .dropdown-container{
+        font-size:15px;
+    }
+}

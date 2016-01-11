@@ -1,0 +1,166 @@
+﻿.login-background-container{
+    width:100%;
+    margin:0;
+}
+
+.login-background-img{
+    width:100%;
+    margin:0;
+    height:482px;
+}
+
+.background-cover{
+    width:100%;
+    position:absolute;
+    top:400px;
+    height:74px;
+}
+
+.login-form-container{
+    position:absolute;
+    background-color:white;
+    top:50%;
+    left:0;
+    right:0;
+    width:375px;
+    margin:0 auto;
+    margin-top:-200px;
+    padding:75px 75px 50px 75px;
+    z-index:500;
+    box-shadow: 0px 8px 5px rgba(226, 226, 226, 0.4), 
+        -8px 5px 5px rgba(226, 226, 226, 0.4), 8px 5px 5px rgba(226, 226, 226, 0.4);
+}
+
+.remax-container{
+    position:absolute;
+    right:30px;
+    top:-25px;
+    padding:7.5px 7.5px 0 7.5px;
+    background-color:#e2e2e2;
+    height:17px;
+}
+
+    .remax-container img{
+        width:200px;
+    }
+
+    .login-form-container span{
+        color:#8f8f8f;
+    }
+
+    .login-form-container h1{
+        color:#0097d5;
+        margin-top:0;
+        font-weight:normal;
+        margin-bottom:30px;
+        font-size:38px;
+    }
+
+    .login-buttons-container a{
+        color:#aeaeae;
+        float:right;
+        font-size:17px;
+        margin-top:10px;
+    }
+
+    .login-buttons-container{
+        margin-top:10px;
+        width:100%;
+    }
+
+    .login-buttons-container input{
+        border:none;
+        width:140px;
+        font-size:20px;
+    }
+
+
+#username, #password{
+    width:90%;
+    padding:15px 20px;
+    margin-bottom:25px;
+    font-size:15px;
+    color:#afafaf;
+}
+
+body{
+    margin:0;
+    background-color:white;
+}
+
+.standardButton{
+    color: white;
+    background-color: #0098d6;
+    width: auto;
+    padding: 8px 16px;
+    font-size:14px;
+}
+
+@media (max-height:700px) and (min-width:1025px){
+    .login-background-img{
+        height:350px;
+    }
+}
+
+@media (max-width:767px){
+    .login-background-img{
+        height:280px;
+    }
+
+    .login-form-container{
+        top:153px;
+        width:220px;
+        margin:0 auto;
+        padding:60px 30px 30px 30px;
+    }
+
+    .remax-container{
+        right:10px;
+        padding:7.5px 8.5px 0 6.5px;
+    }
+
+    .remax-container img{
+        width:130px;
+    }
+
+    .login-form-container span{
+        font-size:14px;
+    }
+
+    .login-form-container h1{
+        font-size:24px;
+    }
+
+    .login-buttons-container a{
+        font-size:12px;
+    }
+
+    .login-buttons-container input{
+        border:none;
+        width:80px;
+        font-size:14px;
+    }
+
+    #username, #password{
+        width:90%;
+        padding:10px 8px;
+        margin-bottom:15px;
+        font-size:13px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .login-background-img{
+        height:480px;
+    }
+}
+
+@media (min-width:1550px){
+    .login-background-img{
+        height:initial;
+    }
+
+    .background-cover{
+        height:initial;
+    }
+}

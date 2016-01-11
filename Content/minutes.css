@@ -1,0 +1,205 @@
+﻿/* sidebar content styling */
+.sidebar h2{
+    color:#0097d5;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.sidebar .options-list-container{
+    margin-bottom:90px;
+}
+
+.options-list-container .post-container{
+    font-size:13px;
+    width:100%;
+    margin-bottom:30px;
+}
+
+    .post-container p{
+        font-weight:700;
+    }
+
+    .post-container label{
+        color:#949494;
+    }
+
+.sidebar .specialForms-container{
+    margin-bottom:60px;
+}
+
+    .specialForms-container a{
+        display:inline-block;
+        font-size:14px;
+        color:black;
+        margin-bottom:15px;
+        width:100%;
+    }
+
+    .specialForms-container a:hover{
+        cursor:pointer;
+    }
+
+/* content styling */
+.contentContainer{
+    width:56%;
+    padding:0 100px 0 100px;
+}
+
+    .contentContainer h1{
+        color:#0097d5;
+        font-size:2em;
+        padding-bottom:20px;
+        border-bottom:1px solid black;
+        margin-bottom:20px;
+    }
+
+    .contentContainer label{
+        color:#bababa;
+        font-size:14px;
+        margin-bottom:60px;
+        display:block;
+    }
+
+.meeting-minutes-container{
+    margin-bottom:30px;
+}
+
+.meeting-minutes-content{
+    display:inline-block;
+    position:relative;
+    top:-15px;
+    margin-left:20px;
+}
+
+    .meeting-minutes-content p{
+        display:inline-block;
+    }
+
+    .meeting-minutes-content p:first-of-type{
+        margin-right:30px;
+    }
+
+
+@media (max-width:767px){
+    .contentContainer{
+        width:80%;
+        padding:0;
+        margin:0 auto;
+    }
+
+    .body-content .contentContainer h1{
+        font-size:20px;
+    }
+
+    .contentContainer h3{
+        font-size:13px;
+    }
+
+    .meeting-minutes-container .meeting-minutes-content p{
+        font-size:12px;
+    }
+
+    .contentContainer label{
+        font-size:11px;
+        margin-bottom:30px;
+    }
+
+    .meeting-minutes-container img{
+        width:35px;
+    }
+
+    .meeting-minutes-content{
+        margin-left:15px;
+        width:200px;
+        top:27px;
+    }
+
+    .sidebar .specialForms-container{
+        margin-bottom:100px;
+    }
+
+    .sidebar .options-list-container{
+        margin-bottom:120px;
+    }
+}
+
+@media (min-width:768px) and (max-width:999px){
+    .contentContainer{
+        width:70%;
+        padding:0 50px 0 50px;
+    }
+
+    .meeting-minutes-container img{
+        width:45px;
+        margin-left:20px;
+    }
+
+    .meeting-minutes-container{
+        top:-5px;
+        width:100%;
+        margin-bottom:40px;
+    }
+
+    .meeting-minutes-content{
+        top:5px;
+        margin-left:25px;
+        width:266px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1100px){
+    .meeting-minutes-container{
+        margin-bottom:40px;
+    }
+
+    .meeting-minutes-content{
+        top:-5px;
+        margin-left:25px;
+        width:266px;
+    }
+
+    .meeting-minutes-content p:first-of-type{
+        margin-right:0;
+    }
+}
+
+@media (min-width:768px) and  (max-width:1200px){
+    .meeting-minutes-content p{
+        font-size:14px;
+    }
+
+}
+
+@media (min-width:1200px){
+    .sidebar .specialForms-container{
+        margin-bottom:100px;
+    }
+
+    .sidebar .options-list-container{
+        margin-bottom:120px;
+    }
+}
+
+@media (min-width:1525px){
+    /* sidebar content styling */
+    .sidebar h2 {
+        font-size:24px;
+    }
+
+    .options-list-container .post-container {
+        font-size: 15px;
+    }
+
+    .specialForms-container a{
+        font-size:15px;
+    }
+
+    /* content styling */
+    .contentContainer h1{
+        font-size:2.4em;
+    }
+
+    .contentContainer label{
+        font-size:16px;
+    }
+}

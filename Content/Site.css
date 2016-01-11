@@ -1,0 +1,333 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	
+}
+
+
+/* header styling */
+.navbar-container{
+    height:400px;
+    width:100%;
+    font-size:14px;
+}
+
+.navbar-top{
+    background-color:black;
+    height:30px;
+    color:white;
+    opacity:0.5;
+}
+
+.headingContainer{
+    position:relative;
+    top:-25px;
+    left:30px;
+    color:white;
+    width:320px;
+}
+
+.accountContainer{
+    position:absolute;
+    right:0;
+    top:6px;
+    width:380px;
+}
+
+    .accountDividers{
+        color:white;
+        float:left;
+        padding:0 10px 0 10px;
+    }
+
+    .accountContainer a{
+        color:white;
+        float:left;
+    }
+
+    .accountContainer a:hover{
+        cursor:pointer;
+    }
+
+    .accountContainer a:first-of-type{
+        width:153px;
+    }
+
+    .accountContainer a img{
+        float:left;
+        margin-right:15px;
+    }
+
+.header-background-container{
+    position:relative;
+    top:-49px;
+    left:0;
+    z-index:-100;
+}
+
+.header-background-img{
+    width:100%;
+    height:250px;
+}
+
+.header-background-cover{
+    width:100%;
+    position:relative;
+    top:-254px;
+    z-index:10;
+    height:250px;
+}
+
+.menu-button-container{
+    background-color:#098bbd;
+    opacity:0.9;
+    width:50px;
+    right:50px;
+    top:60px;
+    position:absolute;
+    height:45px;
+    z-index:100;
+}
+
+    .menu-button-container img{
+        margin-left:10px;
+        margin-top:12px;
+        width:30px;
+    }
+
+    .menu-button-container:hover{
+        cursor:pointer;
+    }
+
+.header-remax-logo{
+    position:relative;
+    left:100px;
+    top:-300px;
+    z-index:11;
+}
+
+.header-remax-logo-background{
+    z-index:0;
+    padding:7.5px 7.5px 0 7.5px;
+    background-color:#e2e2e2;
+    position:absolute;
+    left:92px;
+    top:200px;
+    width:240px;
+    height:40px;
+}
+
+/* sliding menu styling */
+.sidemenu-container{
+    background-image: url('images/sidebar-background.png');
+    background-position:-80px 0;
+    height:100%;
+    width:250px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:150;
+    display:none;
+}
+
+.sidemenu-content{
+    height:95.5%;
+    width:250px;
+    margin-top:50px;
+    box-shadow: -20px 15px 10px -15px rgba(0, 0, 0, 0.4);
+    padding:0 0 0 30px;
+}
+
+    .sidemenu-container img{
+        margin-top:30px;
+        margin-bottom:120px;
+    }
+
+    .sidemenu-container img:hover{
+        cursor:pointer;
+    }
+
+    .sidemenu-container ul li{
+        display:inline-block;
+        width:80%;
+        color:white;
+        text-decoration:none;
+        margin-bottom:15px;
+        margin-left:15px;
+        font-size:18px;
+    }
+
+    .sidemenu-container ul li:hover {
+        cursor:pointer;
+    }
+
+    .sidemenu-container a:hover{
+        cursor:pointer;
+    }
+
+/* grey sidebar styling */
+.sidebar-mask{
+    position:absolute;
+    right:0;
+    top:150px;
+    width:100%;
+    height:35px;
+}
+
+.sidebar{
+    position:absolute;
+    width: 28%;
+    right:0;
+    top:185px;
+    height:100%;
+    background-color:#e5e5e5;
+
+}
+
+.sidebar div{
+    width:75%;
+    margin:0 auto;
+}
+
+.sidebar .searchboxContainer{
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+
+.searchboxContainer input{
+    padding:15px;
+    width:90%;
+    margin:0 auto;
+    display:block;
+    border:none;
+}
+
+.searchboxContainer img{
+    position:relative;
+    top:-37px;
+    float:right;
+    margin-right:15px;
+}
+
+@media (max-width:767px){
+
+    /* navbar styling */
+    .navbar-container{
+        height:300px;
+    }
+
+    .navbar-container h1{
+        font-size:10px;
+        left:10px;
+        top:-22px;
+        display:none;
+    }
+
+    .navbar-container h1 span{
+        display:none;
+    }
+
+    .accountContainer{
+        width:280px;
+        top:8px;
+    }
+
+    .accountContainer a:first-of-type{
+        width:110px;
+    }
+
+    .accountContainer a img{
+        margin-right:7px;
+    }
+
+    .accountContainer a, .accountContainer p{
+        font-size:10px;
+    }
+
+    .header-remax-logo{
+        left:40px;
+        width:135px;
+        top:-310px;
+    }
+
+    .menu-button-container{
+        right:25px;
+    }
+
+    .header-remax-logo-background{
+        width:155px;
+        left:30px;
+        top:190px;
+        height:40px;
+    }
+
+    .header-background-container{
+        overflow:hidden;
+        width:100%;
+    }
+
+    .header-background-img, .header-background-cover{
+        width:600px;
+        margin-left:-90px;
+    }
+
+    /* slideout side menu styling */
+    .sidemenu-container{
+        background-image: url('images/sidemenu-mobile-background.png');
+        background-position:-80px 0;
+        width:200px;
+        padding-bottom:30px;
+    }
+
+    .sidemenu-content{
+        width:200px;
+        padding:0 0 0 25px;
+        margin-top:30px;
+    }
+
+    .sidemenu-container img{
+        margin-bottom:80px;
+    }
+
+    .sidemenu-container ul li {
+        margin-bottom:25px;
+        font-size:14px;
+    }
+
+    /* sidebar styling */
+    .sidebar{
+        position:relative;
+        width:100%;
+        padding-top:60px;
+        top:85px;
+    }
+
+    .sidebar-mask{
+        display:none;
+    }
+
+    .sidebar .searchboxContainer{
+        margin-top:0;
+        margin-bottom:70px;
+    }
+}
