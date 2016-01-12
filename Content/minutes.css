@@ -79,6 +79,9 @@
         margin-right:30px;
     }
 
+.sidemenu-content {
+    padding-bottom:11px;
+}
 
 @media (max-width:767px){
     .contentContainer{
